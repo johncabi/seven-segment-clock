@@ -30,4 +30,4 @@ setInterval(() => {
   else {
     seconds.innerText = ss;
   }
-}, 1000);
+}, 100);
