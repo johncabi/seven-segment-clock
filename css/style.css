@@ -1,0 +1,33 @@
+/* 7-segment font */
+@font-face {
+  font-family: 'Seven Segment';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Seven Segment'), url('/assets/fonts/SevenSegment.woff') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.container {
+  background-color: #000000;
+  display: flex;
+  padding: 12px 16px;
+}
+
+.container > p {
+  color: #ff0000;
+  font-family: 'Seven Segment';
+  font-size: 6rem;
+}
