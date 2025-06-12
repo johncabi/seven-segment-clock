@@ -14,14 +14,13 @@
 
 body {
   align-items: center;
-  background-color: #121212;
+  background-color: #000000;
   display: flex;
   justify-content: center;
   min-height: 90vh;
 }
 
 .container {
-  background-color: #000000;
   display: flex;
   padding: 12px 16px;
 }
