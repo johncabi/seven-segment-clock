@@ -1,7 +1,7 @@
 # 7SegmentClock
 
 <p align="center">
-  <img src="/assets/images/intro.png" alt="Logo" />
+  <img src="/assets/images/rev1.png" alt="Logo" />
 </p>
 
 A simple clock that has 7 Segment like display which features a red foreground color and a black background-color.
@@ -9,6 +9,11 @@ A simple clock that has 7 Segment like display which features a red foreground c
 ### Features
 
 1. Clock with 7-segment font
+
+### ✅ New Features
+
+1. Day of the Week
+2. Date
 
 **Notice**
 
