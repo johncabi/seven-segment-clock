@@ -24,25 +24,25 @@ body {
 .container {
   align-items: center;
   display: flex;
-  gap: 12px;
+  gap: 0.75rem;
   flex-direction: column;
-  padding: 12px 16px;
+  padding: 0.75rem 1rem;
 }
 
 .top {
   display: flex;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 .day-container {
   display: flex;
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 .day-container > p {
   color: #696969;
   font-family: monospace;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 1.2rem;
 }
 
