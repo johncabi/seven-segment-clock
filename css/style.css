@@ -43,7 +43,7 @@ body {
   color: #696969;
   font-family: monospace;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .date-container {
@@ -53,7 +53,7 @@ body {
 .date-container>p {
   color: #ff0000;
   font-family: "Seven Segment";
-  font-size: 10rem;
+  font-size: 4rem;
 }
 
 .clock-container {
@@ -63,9 +63,77 @@ body {
 .clock-container>p {
   color: #ff0000;
   font-family: "Seven Segment";
-  font-size: 18rem;
+  font-size: 9rem;
 }
 
 .red {
   color: #ff0000;
+}
+
+@media screen and (max-width: 767px) and (orientation: portrait) {
+  .day-container {
+    display: flex;
+    gap: 0.75rem;
+  }
+
+  .day-container>p {
+    color: #696969;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+
+  .date-container {
+    display: flex;
+  }
+
+  .date-container>p {
+    color: #ff0000;
+    font-family: "Seven Segment";
+    font-size: 1.1rem;
+  }
+
+  .clock-container {
+    display: flex;
+  }
+
+  .clock-container>p {
+    color: #ff0000;
+    font-family: "Seven Segment";
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+  .day-container {
+    display: flex;
+    gap: 0.75rem;
+  }
+
+  .day-container>p {
+    color: #696969;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 0.6rem;
+  }
+
+  .date-container {
+    display: flex;
+  }
+
+  .date-container>p {
+    color: #ff0000;
+    font-family: "Seven Segment";
+    font-size: 0.9rem;
+  }
+
+  .clock-container {
+    display: flex;
+  }
+
+  .clock-container>p {
+    color: #ff0000;
+    font-family: "Seven Segment";
+    font-size: 2.8rem;
+  }
 }
