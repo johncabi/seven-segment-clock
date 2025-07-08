@@ -11,7 +11,6 @@ seconds = document.getElementById("seconds");
 
 setInterval(() => {
   const now = new Date();
-
   const dOW = now.getDay();
 
   switch (dOW) {
@@ -46,7 +45,7 @@ setInterval(() => {
 
 
   const dd = now.getDate();
-  const m = now.getMonth();
+  const m = now.getMonth() + 1;
   const yyyy = now.getFullYear();
   const hh = now.getHours().toString().padStart(2, '0');
   const mm = now.getMinutes().toString().padStart(2, '0');
