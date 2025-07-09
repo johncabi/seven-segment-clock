@@ -4,7 +4,7 @@
   <img src="/assets/images/rev2.png" alt="Logo" />
 </p>
 
-A simple 7Segment clock
+A simple 7Segment clock which features a date and time based on your timezone
 
 ### Features
 
