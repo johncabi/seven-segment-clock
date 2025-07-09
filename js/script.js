@@ -13,36 +13,7 @@ setInterval(() => {
   const now = new Date();
   const dOW = now.getDay();
 
-  switch (dOW) {
-    case 0:
-      dayOfWeek[0].style.color = "#FF0000";
-      break;
-
-    case 1:
-      dayOfWeek[1].style.color = "#FF0000";
-      break;
-
-    case 2:
-      dayOfWeek[2].style.color = "#FF0000";
-      break;
-
-    case 3:
-      dayOfWeek[3].style.color = "#FF0000";
-      break;
-
-    case 4:
-      dayOfWeek[4].style.color = "#FF0000";
-      break;
-
-    case 5:
-      dayOfWeek[5].style.color = "#FF0000";
-      break;
-
-    case 6:
-      dayOfWeek[6].style.color = "#FF0000";
-      break;
-  }
-
+  dayOfWeek[dOW].style.color = "var(--color-active)";
 
   const dd = now.getDate();
   const m = now.getMonth() + 1;
@@ -55,7 +26,6 @@ setInterval(() => {
   month.innerText = m;
   day.innerText = dd;
   year.innerText = yyyy;
-
 
   hours.innerText = hh;
   minutes.innerText = mm;
