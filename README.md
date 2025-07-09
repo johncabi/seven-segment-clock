@@ -1,7 +1,7 @@
 # 7SegmentClock
 
 <p align="center">
-  <img src="/assets/images/rev1.png" alt="Logo" />
+  <img src="/assets/images/rev2.png" alt="Logo" />
 </p>
 
 A simple clock that has 7 Segment like display which features a red foreground color and a black background-color.
